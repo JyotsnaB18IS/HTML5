@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Inline Styles</title>
+</head>
+<body style="background-color:antiquewhite;">
+    <h1 style="text-align: center;color: blue;">Student Information</h1>
+    <hr>
+
+    <table border="1">
+        <tr bgcolor="aqua">
+           <th>Roll Number</th> 
+           <th>Student Name</th>
+           <th>Course</th>
+           <th>University</th>
+        </tr>
+        <tr>
+            <td align="center">1001</td>
+            <td>Jyotsna</td>
+            <td>B.Tech</td>
+            <td>svit</td>
+        </tr>
+        <tr>
+            <td align="center">1002</td>
+            <td>Jaan</td>
+            <td>B.Tech</td>
+            <td>ASCET</td>
+        </tr>
+        <tr>
+            <td align="center">103</td>
+            <td>Bjarne Stroustrup</td>
+            <td>MCA</td>
+            <td>AMITY University</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Dennis Ritchie</td>
+            <td>BTech</td>
+            <td>VTU</td>
+        </tr>
+
+        <tr>
+            <td>105</td>
+            <td>Gavin KIng</td>
+            <td>BTech</td>
+            <td>Bangalore University</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+
+    <hr color="red" size="10"/>
+    <h1 align="center">Employee Inforamtion</h1>
+    <hr>
+
+    <table border="2" cellpadding="10" cellspacing="20"> <!-- 
+        Cell padding is the space between the cell edges and the cell content.
+        Cell spacing is the space between each cell.
+        -->
+        <tr bgcolor="aqua">
+            <th>Employee Id</th> 
+            <th>Student Name</th>
+            <th colspan="2">Technologies </th>
+         </tr>
+
+         <tr>
+             <td>18g21a0417</td>
+             <td>pavani</td>
+             <td align="center" colspan="2">GCP</td>
+         </tr>
+
+         <tr>
+            <td>18g21a0411</td>
+            <td>sita</td>
+            <td align="center" colspan="2">Spring</td>
+        </tr>
+
+        <tr>
+            <td>18g21a0452</td>
+            <td>Sivapriya</td>
+            <td align="center" colspan="2">Java</td>
+        </tr>
+
+        <tr>
+            <td>18g21a0473</td>
+            <td>Pooji</td>
+            <td align="center">Devops</td>
+            <td align="center"> react</td>
+        </tr>
+
+        <tr bgcolor="Khaki">
+            <td>18g21a0475</td>
+            <td>abc</td>
+            <td align="center" colspan="2">HTML</td>
+        </tr>
+
+        <tr>
+            <td>18g21a0467</td>
+            <td>xyz</td>
+            <td align="center">JDBC</td>
+            <td align="center">Hibernate</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">18g21a0479</td>
+            <td rowspan="2">abcd</td>
+            <td align="center" colspan="2">Oracle</td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2">Jenkins</td>
+        </tr>
+
+    </table>
+
+    <!--
+        colspan-Merging of columns
+        rowspan-Merging of rows
+    -->
+
+</body>
+</html>
